@@ -1,16 +1,60 @@
-# blog_app
+# Flutter Clean Architecture Blog App
 
-A new Flutter project.
+A scalable Flutter blog application built using **Clean Architecture** and **BLoC pattern**.
 
-## Getting Started
+This project is being developed as part of an architectural learning process to deeply understand scalable Flutter app structure.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- BLoC (State Management)
+- Clean Architecture
+- Supabase
+- Hive (Local Storage)
+- GetIt (Dependency Injection)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🏗 Architecture
+
+This project follows layered architecture principles:
+
+### Presentation Layer
+- UI
+- Widgets
+- Bloc
+
+### Domain Layer
+- Entities
+- Use Cases
+- Repository Contracts
+
+### Data Layer
+- Models
+- Repository Implementations
+- Remote & Local Data Sources
+
+---
+
+## 🎯 Project Goal
+
+- Understand Clean Architecture deeply
+- Implement scalable folder structure
+- Learn dependency injection
+- Practice proper state management
+
+---
+
+## 🔮 Planned Improvements
+
+- Dark mode
+- Pagination
+- Better error handling
+- Unit tests
+- Custom enhancements beyond tutorial
+
+---
+
+> This repository will evolve with additional improvements and refactoring.
