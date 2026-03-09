@@ -57,4 +57,8 @@ This project follows layered architecture principles:
 
 ---
 
+<<<<<<< HEAD
 > This repository will evolve with additional improvements and refactoring.
+=======
+> This repository will evolve with additional improvements and refactoring.
+>>>>>>> 5cd1d71 (feat: add auth repository and supabase setup)
